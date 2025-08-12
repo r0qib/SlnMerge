@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "SlnMerge": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "SOURCE_SOLUTION": "source.txt",
+        "TARGET_SOLUTION": "target.txt",
+        "OUTPUT_SOLUTION": "output.txt"
+      }
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

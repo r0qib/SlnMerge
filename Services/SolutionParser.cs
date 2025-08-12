@@ -10,7 +10,7 @@ public class SolutionParser
 
     public SolutionParser(string path)
     {
-        Lines = System.IO.File.ReadAllLines(path);
+        Lines = File.ReadAllLines(path);
         Projects = ProjectBlock.ExtractProjectBlocks(Lines);
         Sections = GlobalSection.ExtractGlobalSections(Lines);
     }
